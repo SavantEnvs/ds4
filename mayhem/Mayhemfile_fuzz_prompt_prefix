@@ -1,0 +1,9 @@
+project: savantenvs/ds4
+target: fuzz_prompt_prefix
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_prompt_prefix/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_prompt_prefix
+    libfuzzer: true
+    timeout: 60

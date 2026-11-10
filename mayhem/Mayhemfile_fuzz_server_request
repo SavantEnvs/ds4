@@ -1,0 +1,9 @@
+project: savantenvs/ds4
+target: fuzz_server_request
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_server_request/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_server_request
+    libfuzzer: true
+    timeout: 60

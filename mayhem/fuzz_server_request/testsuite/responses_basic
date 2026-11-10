@@ -1,0 +1,1 @@
+{"model":"x","input":[{"type":"message","role":"user","content":[{"type":"input_text","text":"hi"}]},{"type":"function_call","call_id":"c","name":"f","arguments":"{}"},{"type":"function_call_output","call_id":"c","output":"done"}],"instructions":"be nice","max_output_tokens":50,"reasoning":{"effort":"high"}}

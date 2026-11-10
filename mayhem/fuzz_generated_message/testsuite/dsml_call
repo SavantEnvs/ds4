@@ -1,0 +1,6 @@
+<｜DSML｜tool_calls>
+<｜DSML｜invoke name="get_weather">
+<｜DSML｜parameter name="city" string="true">Rome</｜DSML｜parameter>
+<｜DSML｜parameter name="n" string="false">3</｜DSML｜parameter>
+</｜DSML｜invoke>
+</｜DSML｜tool_calls>
